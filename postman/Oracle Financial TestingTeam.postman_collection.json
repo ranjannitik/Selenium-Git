@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "a4b696b7-6c61-453c-8346-9a0bc863dfc8",
+		"name": "Oracle Financial TestingTeam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46673446"
+	},
+	"item": [
+		{
+			"name": "HTTP Requests",
+			"item": [
+				{
+					"name": "Single User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MultipleUsers Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres-free-v1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Nitik Ranjan\",\r\n    \"job\":\"Associate Consultant\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Record",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "reqres-free-v1",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Nitik Ranjan\",\r\n    \"job\":\"CTO\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

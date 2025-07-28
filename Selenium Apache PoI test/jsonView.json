@@ -1,0 +1,22 @@
+[
+    {
+        "endpoint": "api/register/CoforgeQA",
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+    },
+    {
+        "endpoint": "api/register/CoforgeQA",
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+    },
+    {
+        "endpoint": "api/register/CoforgeQA",
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+    },
+    {
+        "endpoint": "api/register/CoforgeQA",
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+    }
+]
